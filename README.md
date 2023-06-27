@@ -20,8 +20,8 @@ The model used in this project is a quantized version built with `ggml`. It's de
 1. **Clone this repository.**
 
     ```bash
-    git clone <dockerized-repo-url>
-    cd <dockerized-repo-dir>
+    gh repo clone GPT-do-dah/Replit-Container
+    cd Replit-Container
     ```
 
 2. **Build the Docker image.**
