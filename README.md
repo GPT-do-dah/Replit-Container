@@ -55,6 +55,8 @@ Note: If you'd like to adjust the parameters at runtime, you'd need to create a 
 
 The original code for `replit-3B-inference` is licensed under the MIT license. Please refer to the [LICENSE](https://github.com/abacaj/replit-3B-inference/blob/main/LICENSE) file in the original repository for more details.
 
+(Original README Below)
+
 # Replit Code Instruct inference using CPU
 
 Run inference on the replit code instruct model using your CPU. This inference code uses a [ggml](https://github.com/ggerganov/llama.cpp) quantized model. To run the model we'll use a library called [ctransformers](https://github.com/marella/ctransformers) that has bindings to ggml in python.
