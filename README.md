@@ -65,6 +65,20 @@ Note: If you'd like to adjust the parameters at runtime, you'd need to create a 
 
 The original code for `replit-3B-inference` is licensed under the MIT license. Please refer to the [LICENSE](https://github.com/abacaj/replit-3B-inference/blob/main/LICENSE) file in the original repository for more details.
 
+---
+
+## Changelog
+
+### Version 2.0 - 6-29-23
+
+- Added a build argument `REPO_URL` to the Dockerfile. This allows users to specify a different Git repository URL or a local filesystem path to a modified `replit-3B-inference` project when building the Docker image. If not provided, the `REPO_URL` defaults to the original `replit-3B-inference` repository.
+
+- Updated the "Build the Docker image" instructions in the README to include how to use the `REPO_URL` build argument.
+
+### Version 1.0 - 6-27-23
+
+- Initial Dockerfile. Used Python 3.10 as the base image. Cloned the `replit-3B-inference` repository, installed dependencies, downloaded the quantized model weights, and ran the inference script when the Docker container is started.
+
 (Original README Below)
 
 ---
