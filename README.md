@@ -8,7 +8,7 @@ The Dockerfile is created based on Python 3.10, as recommended by the original r
 
 ## The Model
 
-The model used in this project is a quantized version built with `ggml`. It's designed to interpret and execute instructions on the Replit platform. The model has been trained on a large dataset and can handle a variety of tasks.
+The model used in this project is a quantized version built with `ggml`. It's designed to interpret and execute instructions on the Replit platform. The model has been trained on a large dataset and can handle a variety of tasks. [Learn More Here](https://github.com/replit/ReplitLM)
 
 ## Requirements
 
